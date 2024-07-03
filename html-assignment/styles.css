@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(110, 229, 229);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: rgb(220, 151, 31);
+    font-size: larger;
+    color: white;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the header is above other content */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    clear: both; /* Ensures footer stays below floated elements */
+}
+
+.container {
+    display: flex;
+    margin-top: 60px; /* Push content below the fixed header */
+    padding-bottom: 40px; /* Prevent content from being hidden behind the fixed footer */
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 15px;
+    width: 25%;
+    overflow: auto; /* Handles overflow content */
+}
+
+.content {
+    background-color: #ddd;
+    padding: 15px;
+    width: 75%;
+    overflow: hidden; /* Hides overflow content */
+}
+
+.site-title {
+    color: #ff6347;
+}
+
+#my-image {
+    box-shadow: 0 0 6px 6px rgb(227, 5, 5);
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: #de3478;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #555;
+}
