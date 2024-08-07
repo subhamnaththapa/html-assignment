@@ -1,0 +1,356 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, section, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+}
+
+header .search input {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+header .search button {
+    padding: 5px 10px;
+    background-color: #f7941e;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+header .search button:hover {
+    background-color: #e57b00;
+}
+
+/* Hero Section Styles */
+.hero {
+    width: 100%;
+    background-image: url('https://github.com/olliveirafelipe/html-assignment/blob/main/final-project/images/main-banner.jpg?raw=true');
+    background-size: cover;
+    padding-block: 24px;
+}
+
+.hero-section > .container {
+    background-color: rgba(0, 0, 0, 0.542);
+    padding-block: 8px;
+}
+
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #f7941e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #e57b00;
+}
+
+/* About Us Section Styles */
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.about-us .about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.about-us .about-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-us .about-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Our Services Section Styles */
+.services {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(33% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.service p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.service button {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.service button:hover {
+    background-color: #555;
+}
+
+/* Our Vision Section Styles */
+.vision {
+    background-color: #f7941e;
+    color: white;
+    padding: 50px 20px;
+}
+
+.vision h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.vision p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.vision button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #f7941e;
+    cursor: pointer;
+}
+
+.vision button:hover {
+    background-color: #e57b00;
+    color: white;
+}
+
+/* Our Team Section Styles */
+.team {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.team h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-member {
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(50% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.team-member p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* Contact Us Section Styles */
+.contact {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form form {
+    flex: 1 1 45%;
+}
+
+.contact-form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form form button {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    flex: 1 1 45%;
+    padding: 20px;
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Hours of Operation Section Styles */
+.hours {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.hours h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.hours table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hours table th,
+.hours table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.hours table th {
+    background-color: #f7941e;
+    color: white;
+}
+
+.hours table td {
+    background-color: #f4f4f4;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

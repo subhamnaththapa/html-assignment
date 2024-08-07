@@ -1,0 +1,316 @@
+body {
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header and Navigation */
+header {
+    position: relative;
+}
+
+nav {
+    background: #333;
+    padding: 10px 0;
+}
+
+.nav-choke ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-choke ul li {
+    margin: 0 15px;
+}
+
+.nav-choke ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-choke ul li a.current {
+    border-bottom: 2px solid #f39c12;
+}
+
+.search form {
+    display: flex;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search button {
+    background: #f39c12;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    background-image: url('https://github.com/subhamnaththapa/html-assignment/blob/main/final-project/images/main-banner.jpg?raw=true');
+    background-size: cover;
+    padding-block: 24px;
+}
+.banner > .container {
+    background-color: rgba(0, 0, 0, 0.542);
+    padding-block: 8px;}
+
+.banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.btn.orange {
+    background: #f39c12;
+}
+
+.btn.black {
+    background: #000000;
+}
+.banner button:only-of-type {
+    color: black;
+    background-color: #c78c06;
+}
+
+/* About Us Section */
+#about-us {
+    padding-block: 8px;
+    background-color:#ffe6ac;
+    color: black;
+}
+
+.about-img img {
+    width: 100%;
+    aspect-ratio: 5/3;
+    background-image: url('https://github.com/subhamnaththapa/html-assignment/blob/main/final-project/images/about-us.jpg?raw=true');
+}
+
+.about-info h2 {
+    margin-block: 16px;
+}
+
+.about-info p {
+    margin-block: 16px;
+}
+
+/* Services Section */
+#our-services {
+    padding-block: 16px;
+    color: black;
+    background-color: #ffe6ac;
+}
+
+.service-cards > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.service-card {
+    color: black;
+    background-color: #ffe6ac;
+    
+}
+
+
+.services-header h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background:#fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(50% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+}
+
+
+.card .info {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+/* Vision Section */
+#our-vision {
+    width: 100%;
+    background-image: url('https://github.com/subhamnaththapa/html-assignment/blob/main/final-project/images/vision.jpg?raw=true');
+    background-position: center;
+    background-size: cover;
+    padding-block: 24px;
+    color: white
+}
+
+.vision-header h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.vision-info p {
+    margin-bottom: 20px;
+}
+
+.vision-btn a {
+    background: #f39c12;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Team Section */
+#our-team {
+    padding: 60px 20px;
+    background-color: #ffe6ac;
+    color: black;
+    padding-bottom: 16px;
+}
+
+.team-header h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team-body {
+    display: flex;
+    gap: 20px;
+}
+
+.team-body .john, .team-body .bob {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.team-body img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.team-body h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.team-body h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact-us {
+    padding: 60px 20px;
+}
+
+.message-form h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.input-block {
+    margin-bottom: 20px;
+}
+
+.input-block label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-block input,
+.input-block textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.button-block {
+    text-align: right;
+}
+
+.button-block button {
+    background: #f39c12;
+    border: none;
+    padding: 10px 20px;
+    color: #a06f6f;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #bdee4a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+}
